@@ -6,7 +6,7 @@ export default function Certification(props) {
     return (
         <div className="Certification">
             <Row>
-                <Col xs={12} md={2} className="image-col"><img src={`certification-images/${props.name}.png`} className="cert-image"/></Col>
+                <Col xs={12} md={2} className="image-col"><img src={`certification-images/${props.name}.png`} className="cert-image" alt={`certification badge - ${props.name}`}/></Col>
                 <Col xs={12} className="d-md-none score">
                     <Row>
                         <Col xs={5} className="text-right">{props.score}</Col>
