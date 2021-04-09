@@ -1,6 +1,6 @@
 import { Col, Row } from "react-bootstrap";
 
-import styles from './Certification.css'
+import './Certification.css';
 
 export default function Certification(props) {
     return (
