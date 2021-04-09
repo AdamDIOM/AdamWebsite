@@ -20,7 +20,7 @@ function App() {
             <span className="title-text">Hi I'm<br/>Adam!</span>
           </Col>
           <Col xs={{span: 12, order: 1}} md={{span: 6, order: 2}} className="avatar">
-            <img src="Adam.png" className="avatar-image"></img>
+            <img src="Adam.png" className="avatar-image" alt="adam avatar"></img>
           </Col>
           <Col xs={0} md={{span: 2, order: 3}}></Col>
         </Row>
