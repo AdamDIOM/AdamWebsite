@@ -5,17 +5,20 @@ import CertificationList from './components/Certifications/CertificationList';
 import About from './components/About/About';
 import Social from './components/Social/Social';
 import Projects from './components/Projects/Projects';
+import News from './components/News/News';
+import Qualifications from './components/Qualifications/Qualifications';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Intro />
-      <About />
-      <Social />
-      <CertificationList />
-      <Projects />
-
+      <Header/>
+      <Intro/>
+      <About/>
+      <Social/>
+      <Qualifications/>
+      <CertificationList/>
+      <Projects/>
+      <News/>
     </div>
   );
 }

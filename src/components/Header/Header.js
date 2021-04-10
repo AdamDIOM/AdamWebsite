@@ -4,8 +4,8 @@ import './Header.css';
 
 export default function Header(){
     return (
-        <Container className="header">
-            <Navbar bg="dark" variant="dark">
+        <Container className="header" id="header">
+            <Navbar variant="dark">
                 <Navbar.Brand>
                     Adam Drummond
                 </Navbar.Brand>

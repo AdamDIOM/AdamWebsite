@@ -1,6 +1,9 @@
 .avatar-image{
     width:100%;
   }
+.avatar-image:hover{
+  filter:drop-shadow(0 -5px 5px red);
+}
   .title{
     overflow:show;
   }

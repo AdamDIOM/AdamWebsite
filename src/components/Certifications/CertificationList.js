@@ -6,8 +6,9 @@ import './CertificationList.css';
 export default function CertificationList(props){
     return (
         
-        <Container className="certifications">
+        <Container className="certifications" id="certifications">
             <h1>Certifications</h1>
+            <h2>Find below the professional certifications I have earned</h2>
             <Certification 
                 score={"963"}
                 name={"MOS_Word"} 
