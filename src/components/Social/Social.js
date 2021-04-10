@@ -1,7 +1,4 @@
-import { useState } from 'react';
 import { Button, Col, Container, Row } from 'react-bootstrap';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
-import { InstagramEmbed } from 'react-instagram-embed';
 
 import './Social.css';
 
