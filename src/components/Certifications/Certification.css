@@ -1,0 +1,65 @@
+.image-col{
+    text-align:center;
+}
+.cert-image{
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.score-md{
+    text-align:center;
+    font-size:2.25vw;
+    height:auto;
+    vertical-align: middle;
+    position:relative;
+}
+
+.score-container{
+    position:absolute;
+    top:20%;
+    width:100%;
+}
+
+.first-score::after{
+    content:"";
+    display:block;
+    height:1px;
+    background-color:white;
+    margin:0;
+    width:100%;
+}
+
+.score-md .row div{
+    /*background-color: green;*/
+    width:100%
+}
+
+@media (min-width:768px){
+    .cert-image{
+        width:100%;
+    }
+}
+
+.small-text{
+    font-variant:small-caps;
+}
+
+.score-piece{
+    width:100%;
+    padding-left:0px;
+    padding-right:0px;    
+}
+
+.Certification:hover{
+    box-shadow: 0 0 160px 0 rgba(255,255,255,0.2);
+    transition:0.5s
+
+}
+
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+}

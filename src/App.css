@@ -1,19 +1,8 @@
-.header{
-  max-width:90%;
-  width:auto;
-  padding:0px;
-}
 .container{
   background-color:#343a40;
   max-width:90%;
   width:auto;
   color:white;
-}
-.main{
-  /*text*/
-}
-.avatar{
-  /*background-color:lightgrey*/
 }
 .avatar-image{
   width:100%;
@@ -23,19 +12,4 @@
 }
 .title-text{
   font-size:10vw;
-}
-
-.Certification{
-  width:90%;
-  margin:auto;
-}
-
-.Certification::after{
-  content:"";
-  display:block;
-  height:1px;
-  background-color:white;
-  margin:10px auto;
-  width:100%;
-
 }
