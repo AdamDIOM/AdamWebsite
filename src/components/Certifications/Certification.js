@@ -4,7 +4,7 @@ import './Certification.css';
 
 export default function Certification(props) {
     return (
-        <a href={props.url} target="_blank">
+        <a href={props.url} target="_blank" rel="noreferrer">
             <div className="Certification">
                 <Row>
                     <Col xs={12} md={2} className="image-col"><img src={`certification-images/${props.name}.png`} className="cert-image" alt={`certification badge - ${props.name}`}/></Col>
@@ -29,7 +29,7 @@ export default function Certification(props) {
 
 function MedScore(props){
     console.log(props.score)
-    if(props.score != undefined){
+    if(props.score !== undefined){
         return (
             <Row className="score-container">
                 <Col md={12} className="text-center score-piece first-score">{props.score}</Col>

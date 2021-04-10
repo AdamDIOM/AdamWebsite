@@ -1,4 +1,3 @@
-import { Col, Container, Navbar, Row } from 'react-bootstrap';
 import './App.css';
 import Header from './components/Header/Header'
 import Intro from './components/Intro/Intro';

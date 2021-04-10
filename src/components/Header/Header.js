@@ -1,4 +1,4 @@
-import { Col, Container, Navbar, Row } from 'react-bootstrap';
+import { Container, Navbar } from 'react-bootstrap';
 
 export default function Header(){
     return (
