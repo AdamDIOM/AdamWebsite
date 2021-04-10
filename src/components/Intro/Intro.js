@@ -7,7 +7,7 @@ export default function Intro(){
         <Container className="intro">
             <Row>
                 <Col xs={{span: 12, order: 2}} md={{span: 4, order: 1}} className="title">
-                    <span className="title-text">Hi I'm<br/>Adam!</span>
+                    <span className="title-text">Hi, I'm<br/>Adam!</span>
                 </Col>
                 <Col xs={{span: 12, order: 1}} md={{span: 6, order: 2}} className="avatar">
                     <img src="Adam.png" className="avatar-image" alt="adam avatar"></img>
