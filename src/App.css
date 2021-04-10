@@ -3,13 +3,5 @@
   max-width:90%;
   width:auto;
   color:white;
-}
-.avatar-image{
-  width:100%;
-}
-.title{
-  overflow:show;
-}
-.title-text{
-  font-size:10vw;
+  padding-bottom:50px;
 }

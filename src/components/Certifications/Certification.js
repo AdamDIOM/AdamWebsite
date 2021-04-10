@@ -9,12 +9,8 @@ export default function Certification(props) {
                 <Row>
                     <Col xs={12} md={2} className="image-col"><img src={`certification-images/${props.name}.png`} className="cert-image" alt={`certification badge - ${props.name}`}/></Col>
 
-                    <Col xs={12} className="d-md-none score">
-                        <Row>
-                            <Col xs={5} className="text-right">{props.score}</Col>
-                            <Col xs={2}>/</Col>
-                            <Col xs={5} className="text-left">1000</Col>
-                        </Row>
+                    <Col xs={12} className="d-md-none score-xs">
+                        <SmallScore score={props.score}/>
                     </Col>
                     <Col md={1} className="d-none d-md-block score-md">
                         <MedScore score={props.score}/>
@@ -27,8 +23,28 @@ export default function Certification(props) {
     )
 }
 
+function SmallScore(props){
+    if(props.score !== undefined){
+        return (
+            <Row>
+                <Col xs={5} className="text-right">{props.score}</Col>
+                <Col xs={2} className="text-center">/</Col>
+                <Col xs={5} className="text-left">1000</Col>
+            </Row>
+        )
+    }
+    else{
+        return(
+            <Row>
+                <Col xs={5} className="text-right"></Col>
+                <Col xs={2} className="text-center">-</Col>
+                <Col xs={5} className="text-left"></Col>
+            </Row>
+        )
+    }
+}
+
 function MedScore(props){
-    console.log(props.score)
     if(props.score !== undefined){
         return (
             <Row className="score-container">

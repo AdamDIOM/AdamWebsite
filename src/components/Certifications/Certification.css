@@ -15,6 +15,10 @@
     position:relative;
 }
 
+.score-xs{
+    font-size:5vw;
+}
+
 .score-container{
     position:absolute;
     top:20%;

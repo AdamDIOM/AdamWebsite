@@ -1,5 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
 
+import './Intro.css';
+
 export default function Intro(){
     return (
         <Container className="intro">
