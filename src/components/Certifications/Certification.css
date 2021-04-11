@@ -29,13 +29,12 @@
     content:"";
     display:block;
     height:1px;
-    background-color:white;
+    background-color: var(--font);
     margin:0;
     width:100%;
 }
 
 .score-md .row div{
-    /*background-color: green;*/
     width:100%
 }
 
@@ -56,14 +55,15 @@
 }
 
 .Certification:hover{
-    box-shadow: 0 0 160px 0 rgba(255,255,255,0.2);
+    box-shadow: 0 0 160px 0 var(--font);
+    background-color: var(--font-fade);
     transition:0.5s
 
 }
 
-a{
-    color: white;
+.certification-link{
+    color: var(--font);
 }
-a:hover{
-    color: white;
+.certification-link:hover{
+    color: var(--font);
 }

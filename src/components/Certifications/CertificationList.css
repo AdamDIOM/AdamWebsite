@@ -1,13 +1,15 @@
 .Certification{
     width:90%;
     margin:auto;
+    z-index: 1000;
   }
-  
+
   .Certification::after{
     content:"";
     display:block;
-    height:1px;
-    background-color:white;
+    height:2px;
+    background-color: var(--overall-back);
     margin:10px auto;
     width:100%;
+    filter:drop-shadow(0 0 3px var(--font))
   }

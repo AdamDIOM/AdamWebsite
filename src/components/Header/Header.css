@@ -1,10 +1,15 @@
 .header{
-    max-width:90%;
-    width:auto;
     padding:0px;
     position:sticky;
     margin-top:-10px;
     top:0;
     z-index:1000;
-    background-color:#232930;
-  }
+    background-color: var(--overall-back);
+    font-size: 1.25rem;
+    padding: .5rem 1rem;
+    color: white;
+}
+
+.color-selector{
+  text-align: right;
+}

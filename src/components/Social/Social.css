@@ -2,14 +2,16 @@
     width:100%;
     margin-bottom:10px;
     text-align:left;
+    background-color: var(--highlight);
 }
 
 .social-button:hover{
-    box-shadow: 0 0 40px 0 rgba(255,255,255,0.4);
+    box-shadow: 0 0 40px 0 var(--font);
     transition:0.1s
 }
 
 .social-button img{
     width:70px;
     padding-right:20px;
+    filter:drop-shadow(0 0 2.5px white);
 }

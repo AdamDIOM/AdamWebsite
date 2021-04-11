@@ -4,7 +4,7 @@ import './Certification.css';
 
 export default function Certification(props) {
     return (
-        <a href={props.url} target="_blank" rel="noreferrer">
+        <a href={props.url} target="_blank" rel="noreferrer" className="certification-link">
             <div className="Certification">
                 <Row>
                     <Col xs={12} md={2} className="image-col"><img src={`certification-images/${props.name}.png`} className="cert-image" alt={`certification badge - ${props.name}`}/></Col>
@@ -16,7 +16,12 @@ export default function Certification(props) {
                         <MedScore score={props.score}/>
                     </Col>
 
-                    <Col xs={12} md={9}>{props.children}</Col>
+                    <Col xs={12} md={9}>
+                        <h3>{props.title}</h3>
+                        {
+                            props.date !== undefined ? `Date Earned: ${props.date}` : ""
+                        }
+                    </Col>
                 </Row>
             </div>
         </a>
