@@ -9,12 +9,16 @@ export default function Header(){
     --background: white;
     --font: #343a40;
     --font-fade: rgba(52, 58, 64, 0.25);
+    --overall-back: #F0942B;
+    --highlight:#ff9b29;
     `
 
     const darkStyles = `
         --background: #343a40;
         --font: white;
-        --font-fade: rgba(255,255,255,0.05)
+        --font-fade: rgba(255,255,255,0.05);
+        --overall-back: #1A5754;
+        --highlight: #37B6AE;
     `
     const [rootStyles, setRootStyles] = useState(darkStyles);
 

@@ -59,9 +59,14 @@ function MedScore(props){
         )
     }
     else{
-        return(
+       /* return(
             <Row className="score-container">
                 <Col md={12} className="small-text text-center score-piece first-score">-</Col>
+                <Col md={12} className="small-text text-center score-piece">-</Col>
+            </Row>
+        )*/
+        return(
+            <Row className="score-container">
                 <Col md={12} className="small-text text-center score-piece">-</Col>
             </Row>
         )

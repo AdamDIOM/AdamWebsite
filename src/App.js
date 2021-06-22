@@ -6,7 +6,7 @@ import About from './components/About/About';
 import Social from './components/Social/Social';
 import Projects from './components/Projects/Projects';
 import News from './components/News/News';
-import Qualifications from './components/Qualifications/Qualifications';
+import Education from './components/Education/Education';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       <Intro/>
       <About/>
       <Social/>
-      <Qualifications/>
+      <Education/>
       <CertificationList/>
       <Projects/>
       <News/>

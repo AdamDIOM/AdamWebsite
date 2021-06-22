@@ -9,7 +9,7 @@
 
 .score-md{
     text-align:center;
-    font-size:2.25vw;
+    font-size:22px;
     height:auto;
     vertical-align: middle;
     position:relative;
@@ -41,8 +41,9 @@
 @media (min-width:768px){
     .cert-image{
         width:100%;
+        max-width:100px;
     }
-}
+} 
 
 .small-text{
     font-variant:small-caps;

@@ -2,9 +2,9 @@
     width:90%;
     margin:auto;
     z-index: 1000;
-  }
+}
 
-  .Certification::after{
+.Certification::after{
     content:"";
     display:block;
     height:2px;
@@ -12,4 +12,4 @@
     margin:10px auto;
     width:100%;
     filter:drop-shadow(0 0 3px var(--font))
-  }
+}

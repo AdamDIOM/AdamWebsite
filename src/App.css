@@ -4,6 +4,7 @@
   width:auto;
   color:var(--font);
   padding-bottom:50px;
+  transition:0.2s;
 }
 
 h2{
@@ -14,10 +15,11 @@ h2{
 .App{
   width:100%;
   background-color:var(--overall-back);
+  transition:0.2s;
   
 }
 
-:root{
+/*:root{
   --overall-back: #1A5754;
   --highlight: #37B6AE;
-}
+}*/

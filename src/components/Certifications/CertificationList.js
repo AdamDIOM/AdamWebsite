@@ -1,14 +1,43 @@
+
 import { Container } from "react-bootstrap";
 import Certification from "./Certification";
 
 import './CertificationList.css';
 
 export default function CertificationList(props){
-    return (
-        
+    
+    return (        
         <Container className="certifications" id="certifications">
             <h1>Certifications</h1>
             <h2>Find below the professional certifications I have earned</h2>
+
+            {/*<Accordion>
+                <Accordion.Toggle eventKey="0">
+                <img src={`certification-images/MOS_Word.png`} className="cert-image" alt={`certification badge - MOS_Word`}/>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="0">
+                        <Certification 
+                            score={"963"}
+                            name={"MOS_Word"}
+                            date={"March 2018"} 
+                            title={"Microsoft Office Specialist: Word 2016"}
+                            url={"https://www.credly.com/badges/b7c3032c-15ae-4c63-9bf1-1134ee55cb2b"}
+                        />
+                </Accordion.Collapse>
+                <Accordion.Toggle eventKey="1">
+                <img src={`certification-images/MOS_Word.png`} className="cert-image" alt={`certification badge - MOS_Word`}/>
+                </Accordion.Toggle>
+                <Accordion.Collapse eventKey="1">
+                        <Certification 
+                            score={"963"}
+                            name={"MOS_Word"}
+                            date={"March 2018"} 
+                            title={"Microsoft Office Specialist: Word 2016"}
+                            url={"https://www.credly.com/badges/b7c3032c-15ae-4c63-9bf1-1134ee55cb2b"}
+                        />
+                </Accordion.Collapse>
+            </Accordion>
+            */}
             <Certification 
                 score={"963"}
                 name={"MOS_Word"}
