@@ -9,7 +9,7 @@ export default function Social(){
             <h1>Find me on Socials</h1>
             <Row>
                 <Col xs={12} md={6} lg={3}>
-                    <Button variant="light" className="social-button" size="lg" href="https://twitter.com/Mista_Koo1" target="_blank">
+                    <Button variant="light" className="social-button" size="lg" href="https://twitter.com/AdamCDrummond" target="_blank">
                         <img src="social-logos/twitter.png" alt="twitter logo"/>
                         <span>Twitter</span>
                     </Button>
