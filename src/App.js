@@ -7,6 +7,7 @@ import Social from './components/Social/Social';
 import Projects from './components/Projects/Projects';
 import News from './components/News/News';
 import Education from './components/Education/Education';
+import Achievements from './components/Achievements/Achievements';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <CertificationList/>
       <Projects/>
       <News/>
+      <Achievements/>
     </div>
   );
 }
