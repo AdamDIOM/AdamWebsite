@@ -8,6 +8,7 @@ import Projects from './components/Projects/Projects';
 import News from './components/News/News';
 import Education from './components/Education/Education';
 import Achievements from './components/Achievements/Achievements';
+import Experience from './components/Experience/Experience';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <Projects/>
       <News/>
       <Achievements/>
+      <Experience/>
     </div>
   );
 }

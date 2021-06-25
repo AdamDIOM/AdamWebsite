@@ -1,0 +1,35 @@
+.box{
+    width:90%;
+    margin:auto;
+}
+.box-title{
+    font-size:1.2rem;
+    font-weight:bold;
+    color:var(--highlight)
+}
+
+.box::after{
+    content:"";
+    display:block;
+    height:2px;
+    background-color: var(--overall-back);
+    margin:10px auto;
+    width:100%;
+    filter:drop-shadow(0 0 3px var(--font))
+}
+
+.box-text{
+    font-size:0.9rem;
+    white-space: pre-line;
+    width:95%;
+    margin:auto;
+}
+
+a, a:hover, a:visited, a:active{
+    color: inherit;
+}
+
+.box:hover{
+    background-color: var(--font-fade);
+    transition:0.2s
+}

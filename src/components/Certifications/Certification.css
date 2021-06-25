@@ -56,9 +56,8 @@
 }
 
 .Certification:hover{
-    box-shadow: 0 0 160px 0 var(--font);
     background-color: var(--font-fade);
-    transition:0.5s
+    transition:0.2s
 
 }
 
