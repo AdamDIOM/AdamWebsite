@@ -12,6 +12,13 @@ export default function Projects(){
             <Box
                 title="BLAHAJgang: A Major Leauge Hacking Guild"
                 link="https://melon.blahajgang.lol"
+                text="BLAHAJgang is a community (referred to as a cult by some) of people all working towards one goal: spreading awareness and love of a 1m long stuffed shark from IKEA all through hacking!"
+            />
+
+            <Box
+                title="What a Surprise: Egg Hunting Site"
+                link="https://competent-tesla-ad5ffe.netlify.app/"
+                text="Try to find the hidden easter eggs on this site. This was my first ever React site that I kept maintained and It also won third place at a Major League Hacking Hackathon - Surprise Hacks (April 2021)"
             />
 
         </Container>
