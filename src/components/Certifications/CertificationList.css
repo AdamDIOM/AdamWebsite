@@ -1,7 +1,8 @@
 .Certification{
-    width:90%;
+    width:100%;
     margin:auto;
     z-index: 1000;
+    padding:0 2% 0;
 }
 
 .Certification::after{

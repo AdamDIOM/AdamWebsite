@@ -9,7 +9,7 @@ export default function Education(){
             <h1>Education</h1>
             <i>Section still under development</i>
             <h2>Find below the qualifications I have earned as part of my formal education</h2>
-            <h3 className="school">St Ninian's High School</h3>
+            <h3 className="school"><a href="https://snhs.sch.im" target="_blank" rel="noreferrer">St Ninian's High School</a></h3>
 
             
             <table>
