@@ -1,4 +1,4 @@
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import Qualification from './Qualification';
 
 import './Education.css';
@@ -12,25 +12,25 @@ export default function Education(){
             <h3 className="school"><a href="https://snhs.sch.im" target="_blank" rel="noreferrer">St Ninian's High School</a></h3>
 
             
-            <table>
-                <Qualification
+            <Row>
+                {/* <Qualification
                     body={"Awarding Body"}
                     level={"Level"}
                     subject={"Subject"}
                     grade={"Grade"}
-                />
+                /> */}
                 <Qualification
                     body={"WJEC"}
                     level={"GCSE"}
                     subject={"Mathematics"}
                     grade={"A*"}
                 />
-                <Qualification
+                {/* <Qualification
                     body={"Cambridge"}
                     level={"IGCSE"}
                     subject={"Mathematics (Core)"}
                     grade={"C"}
-                />
+                /> */}
                 <Qualification
                     body={"Cambridge"}
                     level={"IGCSE"}
@@ -79,9 +79,31 @@ export default function Education(){
                     subject={"Digital Applications"}
                     grade={"A*"}
                 />
-                
-
-            </table>
+                <Qualification
+                    body={"AQA"}
+                    level={"A Level"}
+                    subject={"Mathematics"}
+                    grade={"A*"}
+                />
+                <Qualification
+                    body={"AQA"}
+                    level={"A Level"}
+                    subject={"Computer Science"}
+                    grade={"A*"}
+                />
+                <Qualification
+                    body={"OCR"}
+                    level={"AS Level"}
+                    subject={"Chemistry"}
+                    grade={"B"}
+                />
+                <Qualification
+                    body={"BTEC"}
+                    level={"Extended Certificate"}
+                    subject={"Enterprise & Entrepreneurship"}
+                    grade={"D*"}
+                />
+            </Row>
         </Container>
     )
     
